@@ -11,10 +11,11 @@
 int main(void)
 {
 	int x = 97;
+
 	while (x >= 97 && x <= 122)
 	{
 		putchar(x);
-		x++;
+		++x;
 	}
 
 	return (0);
