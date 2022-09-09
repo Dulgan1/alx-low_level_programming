@@ -10,11 +10,8 @@
 
 int main(void)
 {
-	char alphabet[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-	int x;
+	char alphabet[] = "abcdefghijklmnopqrstuvwxyz";
 
-	x = (int)alphabet;
-	tolower(alphabet);
 	putchar(alphabet);
 
 	return (0);
