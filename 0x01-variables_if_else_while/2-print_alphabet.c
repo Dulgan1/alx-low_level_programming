@@ -13,7 +13,7 @@ int main(void)
 	char alphabet[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	int x;
 
-	x = int(alphabet);
+	x = (int)alphabet;
 	tolower(alphabet);
 	putchar(alphabet);
 
