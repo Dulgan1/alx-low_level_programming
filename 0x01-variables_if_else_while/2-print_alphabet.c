@@ -10,9 +10,12 @@
 
 int main(void)
 {
-	char alphabet[] = "abcdefghijklmnopqrstuvwxyz";
-
-	putchar(alphabet);
+	int x = 97;
+	while (x >= 97 && x <= 122)
+	{
+		putchar(x);
+		x++;
+	}
 
 	return (0);
 }
