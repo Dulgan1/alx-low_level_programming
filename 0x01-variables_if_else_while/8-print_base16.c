@@ -9,12 +9,22 @@
 
 int main(void)
 {
-	int x = 0;
+	int x = 48;
 
-	while (x >= 0 && x < 10)
+	while (x >= 48 && x <= 57)
 	{
-		putchar(&x);
-		x+++;
+		putchar(x);
+		x++;
+		if (x == 58)
+			x = x + 7;
+	}
+	if (x >= 65 && x <= 70)
+	{
+		while (x >= 65 && x<= 70)
+		{
+			putchar(x);
+			x++;
+		}
 	}
 	putchar('\n');
 
