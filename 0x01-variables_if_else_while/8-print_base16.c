@@ -16,11 +16,11 @@ int main(void)
 		putchar(x);
 		x++;
 		if (x == 58)
-			x = x + 7;
+			x = x + 39;
 	}
-	if (x >= 65 && x <= 70)
+	if (x >= 97 && x <= 102)
 	{
-		while (x >= 65 && x<= 70)
+		while (x >= 97 && x <= 102)
 		{
 			putchar(x);
 			x++;
