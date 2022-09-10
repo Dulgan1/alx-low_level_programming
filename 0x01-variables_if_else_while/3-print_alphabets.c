@@ -22,7 +22,7 @@ int main(void)
 		putchar(y);
 		y++;
 	};
-	putchar(0);
+	printf("\n");
 
 	return (0);
 }
