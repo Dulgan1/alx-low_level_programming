@@ -2,9 +2,9 @@
 #include <stdlib.h>
 
 /**
- * main - entry point 
+ * main - entry point of progran
  *
- * Return: always 0
+ * Return: alwasy returns 0
  */
 
 int main(void)
