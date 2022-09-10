@@ -15,8 +15,10 @@ int main(void)
 	{
 		putchar(x);
 		if (x >= 48 && x < 57)
+		{
 			putchar(44);
 			putchar(32);
+		}
 		x++;
 	}
 	putchar('\n');
