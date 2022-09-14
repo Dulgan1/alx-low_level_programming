@@ -11,10 +11,10 @@
 
 int main(void)
 {
-	char *s = "_putchar";
+	char *s = "_putchar\n";
 	int i = 0;
 
-	while (i < 9)
+	while (i < 10)
 	{
 		putchar(s[i]);
 		i++;
