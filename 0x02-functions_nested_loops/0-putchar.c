@@ -14,7 +14,7 @@ int main(void)
 	char *s = "_putchar";
 	int i = 0;
 
-	while(i < 10)
+	while (i < 10)
 	{
 		putchar(s[i]);
 		i++;
