@@ -7,7 +7,12 @@
  *
  */
 
+#ifndef PRNT_ALPHA_H
+#define PRNT_ALPHA_H
+
 void print_alphabet(void);
+
+#endif
 
 void print_alphabet()
 {
