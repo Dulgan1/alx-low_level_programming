@@ -7,7 +7,7 @@
  * Return: void
  *
  */
-const char* print_alphabet(void)
+void print_alphabet(void)
 {
 	char *apb = "abcdefghijklmnopqrstuvwxyz\n";
 	char *sub;
@@ -18,6 +18,4 @@ const char* print_alphabet(void)
 		sub = putchar(apb[i]);
 		i++;
 	}
-
-	return sub;
 }
