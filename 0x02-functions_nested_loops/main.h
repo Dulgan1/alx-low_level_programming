@@ -17,4 +17,6 @@ const char* print_alphabet()
 		putchar(apb[i]);
 		i++;
 	}
+
+	return char;
 }
