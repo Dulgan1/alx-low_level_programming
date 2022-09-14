@@ -1,5 +1,4 @@
 #include <stdlib.h>
-#include <stdio.h>
 
 /**
  * print_alphabet - pronts the letters of tge english alpha
@@ -8,7 +7,12 @@
  *
  */
 
+#ifndef ALPHA_BET
+#define ALPHA_BET
+
 void print_alphabet(void);
+
+#endif
 
 void print_alphabet(void)
 {
