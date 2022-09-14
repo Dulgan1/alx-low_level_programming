@@ -10,12 +10,11 @@
 void print_alphabet(void)
 {
 	char *apb = "abcdefghijklmnopqrstuvwxyz\n";
-	char *sub;
 	int i = 0;
 
 	while (i < 26)
 	{
-		sub = putchar(apb[i]);
+		putchar(apb[i]);
 		i++;
 	}
 }
