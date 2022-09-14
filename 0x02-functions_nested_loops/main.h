@@ -1,3 +1,6 @@
+#include <stdlib.h>
+#include <stdio.h>
+
 /**
  * print_alphabet - pronts the letters of tge english alpha
  *
