@@ -9,7 +9,7 @@
 
 void print_alphabet(void);
 
-print_alphabet()
+void print_alphabet()
 {
         char *apb = "abcdefghijklmnopqrstuvwxyz\n";
         int i = 0;
