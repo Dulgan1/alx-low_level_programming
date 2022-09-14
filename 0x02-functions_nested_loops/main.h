@@ -10,11 +10,14 @@
 const char* print_alphabet(void)
 {
 	char *apb = "abcdefghijklmnopqrstuvwxyz\n";
+	char *sub;
 	int i = 0;
 
 	while (i < 26)
 	{
-		putchar(apb[i]);
+		sub = putchar(apb[i]);
 		i++;
 	}
+
+	return sub;
 }
