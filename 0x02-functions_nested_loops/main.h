@@ -1,10 +1,10 @@
 /**
- * printalphabet - pronts the letters of tge english alpha
+ * print_alphabet - pronts the letters of tge english alpha
  *
  * Return: void
  *
  */
-const char* printalphabet(void)
+const char* print_alphabet()
 {
 	char *apb = "abcdefghijklmnopqrstuvwxyz\n";
 	int i = 0;
