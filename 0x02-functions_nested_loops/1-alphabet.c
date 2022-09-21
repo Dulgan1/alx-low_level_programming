@@ -1,15 +1,21 @@
 #include "main.h"
 
 /**
- * main - entry of code
+ * print_alphabet - prints letters of the english alpha
  *
- * Return: always return 0 on success
+ * Return: void
  *
  */
 
-int main(void)
+void print_alphabet()
 {
-	print_alphabet();
+	char alpha;
+        alpha = 'a'
 
-	return (0);
+        while (alpha <= z)
+        {
+                putchar(alpha);
+                alpha++;
+        }
+	putchar('\n');
 }
