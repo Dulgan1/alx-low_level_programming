@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _isapha - checks by integer value if a character is alphabet or not
+ * _isalpha - checks by integer value if a character is alphabet or not
  *
  * @a: integer to be passed for the checks
  *
