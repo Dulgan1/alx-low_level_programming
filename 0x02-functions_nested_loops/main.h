@@ -20,5 +20,13 @@ void print_alphabet(void);
 
 void _putchar(char);
 
+/**
+ * print_alphabet_x10 - prints the alphabets 10 time
+ *
+ * Return: void
+ *
+ */
+
+void print_alphabet_10x(void)
 #endif
 
