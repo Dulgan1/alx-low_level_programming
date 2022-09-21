@@ -36,5 +36,10 @@ void print_alphabet_x10(void);
  */
 
 int _islower(int);
-#endif
 
+/**
+ * _isalpha - checks if a given int is an alphabet base on ASCII
+ *
+ * Return: 1 if true amd 0 if not
+ */
+#endif
