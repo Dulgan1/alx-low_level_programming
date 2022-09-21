@@ -28,5 +28,13 @@ void _putchar(char);
  */
 
 void print_alphabet_x10(void);
+
+/**
+ * islower - checks if a letter is lowercase or uppercase
+ *
+ * Return: 1 if its lowercase 0 if its uppercase
+ */
+
+int _islower(int);
 #endif
 
