@@ -2,7 +2,7 @@
 
 /**
  * _islower - returns 1 if the character is lower
- *
+ * @c: passed parameter as interger
  * Return: int 1 or 0
  */
 
