@@ -44,4 +44,12 @@ int _islower(int);
  */
 
 int _isalpha(int);
+
+/**
+ * print_sign - prints corresponding sign to a number based on the size of the number
+ *
+ * Return: returns 1 if the number is greater than 0, 0 if the number is 0 and -1 if the number is less than zero
+ */
+
+int print_sign(int);
 #endif
