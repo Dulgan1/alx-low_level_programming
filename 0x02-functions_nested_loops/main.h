@@ -43,5 +43,5 @@ int _islower(int);
  * Return: 1 if true amd 0 if not
  */
 
-int _islower(int);
+int _isalpha(imt)
 #endif
