@@ -1,4 +1,6 @@
-#include <stdlib.h>
+
+#ifndef MAIN_H
+#define MAIN_H
 
 /**
  * print_alphabet - pronts the letters of tge english alpha
@@ -7,10 +9,14 @@
  *
  */
 
-#ifndef PRNT_ALPHA_H
-#define PRNT_ALPHA_H
-
 void print_alphabet(void);
+
+/**
+ * _purchar - prints character
+ *
+ * Return: void
+ *
+ */
 
 #endif
 
