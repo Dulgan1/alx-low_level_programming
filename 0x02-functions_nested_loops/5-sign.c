@@ -2,7 +2,7 @@
 
 /**
  * print_sign - prints sign
- * @n; passed parameter
+ * @n: passed parameter
  * Return: 1, 0, -1
  */
 
