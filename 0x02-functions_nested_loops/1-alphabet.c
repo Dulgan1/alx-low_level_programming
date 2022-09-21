@@ -17,5 +17,5 @@ void print_alphabet()
                 _putchar(alpha);
                 alpha++;
         }
-	putchar('\n');
+	_putchar('\n');
 }
