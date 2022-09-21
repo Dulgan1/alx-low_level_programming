@@ -10,12 +10,12 @@
 void print_alphabet()
 {
 	char alpha;
-        alpha = 'a';
+	alpha = 'a';
 
-        while (alpha <= 'z')
-        {
-                _putchar(alpha);
-                alpha++;
-        }
+	while (alpha <= 'z')
+	{
+		_putchar(alpha);
+		alpha++;
+	}
 	_putchar('\n');
 }
