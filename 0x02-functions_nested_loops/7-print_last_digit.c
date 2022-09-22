@@ -1,11 +1,9 @@
 #include "main.h"
 
 /**
- * print_last_digit - Prints the last digit of a number
- *
- * @a: the parameter to pass the number
- *
- * Return: returnss tge last digit 
+ * print_last_digit - prints tge last digit of a number
+ * @a: the integer parameter to pass tge number
+ * Return: the last digit of the number
  */
 
 int print_last_digit(int a)
