@@ -9,7 +9,7 @@
 int main(void)
 {
 	int n;
-	int m;
+	int sum;
 
 	sum = 0;
 
