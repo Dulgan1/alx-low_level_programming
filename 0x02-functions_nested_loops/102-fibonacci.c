@@ -8,19 +8,20 @@
 
 int main(void)
 {
-	int n;
-	int m;
-	int sum;
+	long n;
+	long m;
+	int cnto = 25;
+	int cntr;
 
-	m = 1;
-
-	for (n = 0; n < 50; n++)
+	for (cntr = 1, cntr <= cnto; cntr++)
 	{
-		sum = n + m;
-		printf("%d, ", sum);
-		n = m;
-		m = sum;
+		printf("%li %li", a, b);
+		a += b;
+		b += a;
 	}
+	if (cnto % 2 == 1)
+		printf("%li", a);
+	printf("\n");
 	
 	return (0);
 }
