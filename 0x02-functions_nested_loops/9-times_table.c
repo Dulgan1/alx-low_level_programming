@@ -24,14 +24,14 @@ void times_table(void)
 			else if (prd <= 9)
 			{
 				_putchar(',');
-				_putchar('.');
-				_putchar('.');
+				_putchar(' ');
+				_putchar(' ');
 				_putchar('0' + prd);
 			}
 			else
 			{
 				_putchar(',');
-				_putchar('.');
+				_putchar(' ');
 				_putchar('0' + (prd / 10));
 				_putchar('0' + (prd % 10));
 			}
