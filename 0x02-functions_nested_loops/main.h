@@ -52,4 +52,12 @@ int _isalpha(int);
  */
 
 int print_sign(int);
+
+/**
+ * _abs - gets the absolute value of a passed integer
+ *
+ * Return: absolute value
+ */
+
+int _abs(int);
 #endif
