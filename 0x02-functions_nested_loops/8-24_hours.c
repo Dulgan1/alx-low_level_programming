@@ -23,7 +23,7 @@ void jack_bauer(void)
 			_putchar('\n');
 			_min++;
 		}
-		min = 0;
+		_min = 0;
 		_hrs++;
 	}
 }
