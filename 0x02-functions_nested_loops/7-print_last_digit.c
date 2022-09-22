@@ -1,4 +1,4 @@
-
+#include "main.h"
 
 /**
  * print_last_digit - prints tge last digit of a number
@@ -10,15 +10,18 @@ int print_last_digit(int a)
 {
 	if (a > 10)
 	{
+		_putchar(a % 10);
 		return (a % 10);
 	}
 	else if (a < 0)
 	{
 		a = a * -1;
+		_putchar(a % 10);
 		return (a % 10);
 	}
 	else
 	{
+		_putchar(a);
 		return (a);
 	}
 }
