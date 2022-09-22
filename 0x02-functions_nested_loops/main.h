@@ -99,4 +99,13 @@ int add(int, int);
  */
 
 void print_to_98(int);
+
+/**
+ * print_times_table - prints tge multiplication times table
+ *
+ * Return: void
+ */
+
+void print_times_table(int);
+
 #endif
