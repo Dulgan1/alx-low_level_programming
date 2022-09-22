@@ -21,4 +21,8 @@ int print_last_digit(int a)
 		a = a % 10;
 		return (a);
 	}
+	else
+	{
+		return (a);
+	}
 }
