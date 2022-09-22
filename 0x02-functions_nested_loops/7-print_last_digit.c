@@ -15,8 +15,10 @@ int print_last_digit(int a)
 		a = a % 10;
 		return (a);
 	}
-	else
+	else if (a < 0)
 	{
+		a = a * -1;
+		a = a % 10;
 		return (a);
 	}
 }
