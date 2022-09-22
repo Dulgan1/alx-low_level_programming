@@ -75,5 +75,5 @@ int print_last_digit(int);
  * Return: void
  */
 
-void jacke_bauer(void);
+void jack_bauer(void);
 #endif
