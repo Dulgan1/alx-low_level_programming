@@ -60,4 +60,12 @@ int print_sign(int);
  */
 
 int _abs(int);
+
+/**
+ * print_last_digit - prints last digit  of a number 
+ * 
+ * Return: returns the last digit
+ */
+
+int print_last_digit(int);
 #endif
