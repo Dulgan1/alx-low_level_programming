@@ -13,7 +13,7 @@ int main(void)
 	int cnto = 25;
 	int cntr;
 
-	for (cntr = 1, cntr <= cnto; cntr++)
+	for (cntr = 1; cntr <= cnto; cntr++)
 	{
 		printf("%li %li", a, b);
 		a += b;
