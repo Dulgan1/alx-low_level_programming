@@ -10,10 +10,10 @@ int main(void)
 {
 	long n = 1;
 	long m = 2;
-	int cnto = 25;
+	int cnto = 50;
 	int cntr;
 
-	for (cntr = 1; cntr <= cnto; cntr++)
+	for (cntr = 1; cntr <= (cnto / 2); cntr++)
 	{
 		printf("%li %li", n, m);
 		n += m;
