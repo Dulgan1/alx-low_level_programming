@@ -20,7 +20,7 @@ int main(void)
 		m += n;
 	}
 	if (cnto % 2 == 1)
-		printf("%li"8, n);
+		printf("%li", n);
 	printf("\n");
 	
 	return (0);
