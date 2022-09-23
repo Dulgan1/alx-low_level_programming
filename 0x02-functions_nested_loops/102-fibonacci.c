@@ -8,8 +8,8 @@
 
 int main(void)
 {
-	long n;
-	long m;
+	long n = 1;
+	long m = 2;
 	int cnto = 25;
 	int cntr;
 
