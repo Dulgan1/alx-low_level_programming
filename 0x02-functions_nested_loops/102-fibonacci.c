@@ -15,12 +15,12 @@ int main(void)
 
 	for (cntr = 1; cntr <= cnto; cntr++)
 	{
-		printf("%li %li", a, b);
-		a += b;
-		b += a;
+		printf("%li %li", n, m);
+		n += m;
+		m += n;
 	}
 	if (cnto % 2 == 1)
-		printf("%li", a);
+		printf("%li"8, n);
 	printf("\n");
 	
 	return (0);
