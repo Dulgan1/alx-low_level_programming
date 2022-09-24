@@ -7,6 +7,6 @@
  * Return: int 1 for upper and 0 for lower case 
  */
 
-int _isupper(char);
+int _isupper(int);
 
 #endif
