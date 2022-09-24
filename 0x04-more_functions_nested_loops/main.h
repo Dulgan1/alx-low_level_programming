@@ -17,4 +17,14 @@ int _isupper(int);
 
 int _isdigit(int);
 
+/**
+ *
+ * mul - multiplies tow int
+ * 
+ * Return: product
+ *
+ */
+
+int mul(int, int);
+
 #endif
