@@ -1,0 +1,4 @@
+#!/bin/bash
+
+git commit -m '0x06 commits'
+
