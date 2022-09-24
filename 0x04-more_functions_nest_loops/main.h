@@ -9,4 +9,12 @@
 
 int _isupper(int);
 
+/**
+ * _isdigit - checks if character is a digit
+ *
+ * Return: i t 1 0r 
+ */
+
+int _isdigit(int);
+
 #endif
