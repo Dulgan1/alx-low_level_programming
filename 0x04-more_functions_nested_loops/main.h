@@ -73,4 +73,12 @@ void print_line(int);
  */
 
 void print_diagonal(int);
+
+/**
+ * print_square - draws a square
+ * @
+ * Return: void
+ */
+
+void print_square(int);
 #endif
