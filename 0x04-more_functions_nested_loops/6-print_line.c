@@ -9,8 +9,24 @@
 
 void print_line(int n)
 {
-	for (; n >= 0; n--)
+	for (;; n--)
 	{
-		_putchar('_');
+		if (n == 0)
+		{
+			_putchar('');
+			break;
+		}
+		else
+		{
+			if (n < 0)
+			{
+				n*= -1;
+				_putchar('_');
+			}
+			else
+			{
+				_putchar('_');
+			}
+		}
 	}
 }
