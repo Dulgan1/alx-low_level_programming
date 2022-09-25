@@ -58,4 +58,11 @@ void print_most_numbers(void);
 
 void more_numbers(void);
 
+/**
+ * print_line - printsa line
+ * @n: number of characters to produce a line (length)
+ * Return: void
+ */
+
+void print_line(int);
 #endif
