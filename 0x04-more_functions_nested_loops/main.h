@@ -81,4 +81,12 @@ void print_diagonal(int);
  */
 
 void print_square(int);
+
+/**
+ * print_triangle - draws a triangle with #
+ *
+ * Return: void
+ */
+
+void print_triangle(int);
 #endif
