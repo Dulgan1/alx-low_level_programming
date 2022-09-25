@@ -18,10 +18,11 @@ void more_numbers(void)
 		{
 			if(j > 9)
 			{
-				_putchar('1' + (j % 10);
+				_putchar('1' + (j % 10));
 			}
-			_putchar(k);
-			/*k++;*/
+			else
+				_putchar(k);
+			k++;
 		}
 		_putchar('\n');
 	}
