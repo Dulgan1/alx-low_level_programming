@@ -3,7 +3,7 @@
 
 /**
  * positive_or_negative - checks if a number is positive or negative
- *
+ * @: integer to be checked
  * Return: void
  */
 
