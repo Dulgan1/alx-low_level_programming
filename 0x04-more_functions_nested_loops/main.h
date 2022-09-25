@@ -89,4 +89,11 @@ void print_square(int);
  */
 
 void print_triangle(int);
+
+/**
+ * print_number - prints any number
+ * Return: void
+ */
+
+void print_number(int);
 #endif
