@@ -2,6 +2,13 @@
 #define MAIN_H
 
 /**
+ * _putchar - prints a character
+ *
+ * Return: int
+ */
+
+int _putchar(char);
+/**
  * isupper - evaluates an alphabet if upper or lower
  *
  * Return: int 1 for upper and 0 for lower case 
