@@ -10,19 +10,15 @@ void more_numbers(void)
 {
 	char k;
 
-	k = '0';
-
 	for (int i = 0; i <= 10; i++)
 	{
-		for (int j = 0; j <= 14; j++)
+		for (k = 0; k <= 14; k++)
 		{
-			if(j > 9)
+			if (k >= 10)
 			{
-				_putchar('1' + (j % 10));
+				_putchar('0' + (k / 10));
 			}
-			else
-				_putchar(k);
-			k++;
+			_putchar('0' + (k % 10));
 		}
 		_putchar('\n');
 	}
