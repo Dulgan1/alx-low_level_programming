@@ -3,6 +3,8 @@
 
 /**
  * _strcat - concatenates strings
+ * @dest: destination string
+ * @src: source string
  *
  * Return: char *
  */
