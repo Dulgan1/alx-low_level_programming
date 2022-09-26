@@ -84,4 +84,28 @@ void puts_half(char *str);
 
 char *_strcpy(char *dest, char *src);
 
+/**
+ * _atoi - convert string to int
+ * @s: string to convert
+ * Return: integer
+ */
+
+int _atoi(char *s);
+
+/**
+ * idx_num_starts - find index where a digit is first found in string
+ * @s: string to search
+ * Return: integer index where digit is first found
+ */
+
+int idx_num_starts(char *s);
+
+/**
+ * find_sign - determine if integer is negative
+ * @s: integer
+ * Return: integer 1 or -1
+ */
+
+int find_sign(char *s)
+
 #endif
