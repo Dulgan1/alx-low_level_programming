@@ -43,4 +43,12 @@ void _puts(char *str);
 
 int _putchar(char);
 
+/**
+ * print_rev - reverses a string and prints it
+ * @s: string to be reversed parameter
+ * Return: void
+ */
+
+void print_rev(void);
+
 #endif
