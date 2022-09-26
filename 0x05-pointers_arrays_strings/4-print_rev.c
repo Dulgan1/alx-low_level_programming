@@ -11,6 +11,8 @@ void print_rev(char *s)
 	int len; /* length of string */
 	int i;
 
+	len = 0;
+
 	while (*s != '\0')
 	{
 		len++;
