@@ -68,11 +68,20 @@ void rev_string(char *s);
 void puts2(char *s);
 
 /**
- * puts_half - pronts half of the string passed 
+ * puts_half - prints half of the string passed 
  * @s: string parameter 
  * Return: void
  */
 
 void puts_half(char *str);
+
+/**
+ * *_strcpy - copies string for src to dest 
+ * @dest: destination string
+ * @src: source string
+ * Return: void
+ */
+
+char *_strcpy(char *dest, char *src);
 
 #endif
