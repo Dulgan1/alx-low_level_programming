@@ -35,4 +35,12 @@ int _strlen(char *s);
 
 void _puts(char *str);
 
+/**
+ * _putchar - prints a character
+ *
+ * Return: .
+ */
+
+int _putchar(char);
+
 #endif
