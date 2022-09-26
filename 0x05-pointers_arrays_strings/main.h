@@ -19,4 +19,12 @@ void reset_to_98(int *n);
 
 void swap_int(int *a, int *b);
 
+/**
+ * _strlen - returns the length of sa string
+ * @s: pointer to string
+ * Return: int the length
+ */
+
+int _strlen(char *s);
+
 #endif
