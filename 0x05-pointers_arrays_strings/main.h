@@ -51,4 +51,12 @@ int _putchar(char);
 
 void print_rev(char *s);
 
+/**
+ * rev_string - reverses a string
+ * @s: stribg argument to be reversed
+ * Return: void
+ */
+
+void rev_string(char *s);
+
 #endif
