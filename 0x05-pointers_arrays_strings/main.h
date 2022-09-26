@@ -59,4 +59,12 @@ void print_rev(char *s);
 
 void rev_string(char *s);
 
+/**
+ * puts2 - prints a string skipping a character
+ * @s: string parameter to pass string to be manipulated
+ * Return: void
+ */
+
+void puts2(char *s);
+
 #endif
