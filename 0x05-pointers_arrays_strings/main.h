@@ -67,4 +67,12 @@ void rev_string(char *s);
 
 void puts2(char *s);
 
+/**
+ * puts_half - pronts half of the string passed 
+ * @s: string parameter 
+ * Return: void
+ */
+
+void puts_half(char *str);
+
 #endif
