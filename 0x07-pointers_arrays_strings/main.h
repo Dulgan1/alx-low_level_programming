@@ -9,6 +9,6 @@
  * Return: char *
  */
 
-char *_memset(char *s, cahr b, int n);
+char *_memset(char *s, char b, int n);
 
 #endif
