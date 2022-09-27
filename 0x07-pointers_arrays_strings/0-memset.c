@@ -23,8 +23,8 @@ char *_memset(char *s, char b, unsigned int n)
 		len++;
 		i++;
 	}
-
-	for  (i = 0; i <= n && i <= (len -1) i++)
+	i -= i;
+	for  (; (i <= n) && (i <= (len -1)) i++)
 	{
 		s[i] = b;
 	}
