@@ -48,4 +48,13 @@ int _strcmp(char *s1, char *s2);
  */
 
 void reverse_array(int *a, int n);
+
+/**
+ * string_toupper - chnages all lettes to uppercase form
+ * @s: string to manipulate
+ * Return: resulting string after manipulation
+ */
+
+char *string_toupper(char *s);
+
 #endif
