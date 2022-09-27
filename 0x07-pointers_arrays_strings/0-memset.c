@@ -10,16 +10,23 @@
 
 char *_memset(char *s, char b, unsigned int n)
 {
-	int size_n = n;
+	int i = 0;
+	int len = 0;
 
-	if (size_n > 0)
+	if (n < 0)
 	{
-		int i;
+		n *= -1;
+	}
 
-		for  (i = 0; i <= size_n; i++)
-		{
-			s[i] = b;
-		}
+	while (s[i] != '\0')
+	{
+		len++;
+		i++;
+	}
+
+	for  (i = 0; i <= n && s[i] != '\0' && s[i] <= s[len -1]; i++)
+	{
+		s[i] = b;
 	}
 
 	return (s);
