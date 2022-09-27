@@ -19,12 +19,7 @@ char *cap_string(char *s)
 	{
 
 		/* if lowercase and prior char is separator, capitalize*/
-		if ((s[i] >= 'a' && s[i] <= 'z')
-		    && (s[i - 1] == ',' || s[i - 1] == ';' || s[i - 1] == '.' ||
-			s[i - 1] == '!' || s[i - 1] == '?' || s[i - 1] == '"' ||
-			s[i - 1] == '(' || s[i - 1] == ')' || s[i - 1] == '{' ||
-			s[i - 1] == '}' || s[i - 1] == ' ' || s[i - 1] == '\t'
-			|| s[i - 1] == '\n'))
+		if ((s[i] >= 'a' && s[i] <= 'z')  && CHAR_CON)
 			s[i] = s[i] - 'a' + 'A';
 		i++;
 	}
