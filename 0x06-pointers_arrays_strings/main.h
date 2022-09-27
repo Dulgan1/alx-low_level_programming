@@ -91,4 +91,12 @@ char *rot(char *s);
 
 void print_number(int n);
 
+/**
+ * _putchar: prints a character
+ * @c:  character to print to out
+ * Return: int
+ */
+
+int _putchar(char c);
+
 #endif
