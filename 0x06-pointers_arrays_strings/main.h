@@ -81,4 +81,14 @@ char *leet(char *s);
  */
 
 char *rot(char *s);
+
+/**
+ * print_number - prints numbers using _putchar
+ * @n: number to print
+ * Return: void
+ *
+ */
+
+void print_number(int n);
+
 #endif
