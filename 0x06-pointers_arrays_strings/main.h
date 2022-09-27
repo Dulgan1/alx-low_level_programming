@@ -57,4 +57,11 @@ void reverse_array(int *a, int n);
 
 char *string_toupper(char *s);
 
+/**
+ * cap_string - changes every first letter of  word prior to specific character
+ * @:
+ * Return: string
+ */
+
+char *cap_string(char *);
 #endif
