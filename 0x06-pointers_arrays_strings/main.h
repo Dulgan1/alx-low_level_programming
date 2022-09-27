@@ -23,4 +23,13 @@ char *_strcat(char *dest, char *src);
 
 char *_strncat(char *dest, char *src, int n);
 
+/**
+ * _strncpy - copies n bytes of source to destination string
+ * @src: source string
+ * @dest: destinantion string
+ * Return: string goten after copying
+ */
+
+char *_strncpy(char *dest, char *src, int n);
+
 #endif
