@@ -17,11 +17,11 @@ char *_memset(char *s, char b, unsigned int n)
 	}
 	else
 	{
-		if (size > 0)
+		if (n > 0)
 		{
 			int i;
 
-			for (i = 0; i < size; i++)
+			for (i = 0; i < n; i++)
 				s[i] = b;
 		}
 	}
