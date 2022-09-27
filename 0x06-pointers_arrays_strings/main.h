@@ -74,4 +74,11 @@ char *cap_string(char *);
 
 char *leet(char *s);
 
+/**
+ * rot13 - encodes string usibg rot 13
+ * @s: string to encode
+ * Return: string
+ */
+
+char *rot(char *s);
 #endif
