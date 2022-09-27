@@ -60,9 +60,18 @@ char *string_toupper(char *s);
 
 /**
  * cap_string - changes every first letter of  word prior to specific character
- * @:
+ * @: string to be manipulated
  * Return: string
  */
 
 char *cap_string(char *);
+
+/**
+ * leet - encodes passed string to 1337 leet
+ * @s: string parameter to encode
+ * Return: string
+ */
+
+char *leet(char *s);
+
 #endif
