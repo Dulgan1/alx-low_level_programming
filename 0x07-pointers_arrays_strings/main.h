@@ -29,6 +29,15 @@ char *_strstr(char *haystack, char *needle);
 int  _putchar(char c);
 
 /**
+ * print_diagsums - prints tge sum of the ints at tge diagonal of an n by n 2D array
+ * @a: 2D array
+ * @size: size of array (e.g n size is n by n
+ * Return
+ */
+
+void print_diagsums(int *a, int size);
+
+/**
  * print_chessboard - print chessboard given set 2D array
  * @a: 2D array
  */
