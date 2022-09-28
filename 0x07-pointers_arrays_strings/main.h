@@ -22,6 +22,15 @@ char *_memset(char *s, char b, unsigned int n);
 char *_memcpy(char *dest, char *src, unsigned int n);
 
 /**
+ * _strpbrk - return pointer to byte in s that matcjes a byte in accept
+ * @s: string to match (source)
+ * @accept: target string
+ * Return: address of first match
+ */
+
+char *_strpbrk(char *s, char *accept);
+
+/**
  * _strchr - locates first occurence of char c in string s
  * @s; string
  * @c: character
