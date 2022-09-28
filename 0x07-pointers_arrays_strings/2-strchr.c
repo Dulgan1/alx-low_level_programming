@@ -21,13 +21,13 @@ char *_strchr(char *s, char c)
 		i++;
 	}
 
-	for (i = 0; i < len; i++)
+	for (i = 0; i <= len; i++)
 	{
 		if (s[i] == c)
 		{
 			break;
 		}
-		else if (i == n)
+		else if (i == len)
 		{
 			s[i] = 0;
 		}
