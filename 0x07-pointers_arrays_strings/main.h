@@ -21,6 +21,21 @@ char *_memset(char *s, char b, unsigned int n);
 char *_strstr(char *haystack, char *needle);
 
 /**
+ * _putchar - prints char
+ * @c: char to print
+ * Return: int
+ */
+
+int  _putchar(char c);
+
+/**
+ * print_chessboard - print chessboard given set 2D array
+ * @a: 2D array
+ */
+
+void print_chessboard(char (*a)[8]);
+
+/**
  * _memcpy - copies n byte of src memory to dest memory
  * @src: source of string in memory 
  * @n: numver of bytes
