@@ -3,6 +3,7 @@
 /**
  * _memcpy - copies n bytes from memory of src to memory of dest
  * @src: source string occupying memory
+ * @n: number of bytes
  * @dest: destination of copied string from src memory
  * Return: string
  */
