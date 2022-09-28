@@ -10,6 +10,7 @@
 
 void print_diagsums(int *a, int size)
 {
+	a = a[size][size];
 	int row, column;
 	int sum = 0;
 
@@ -19,7 +20,8 @@ void print_diagsums(int *a, int size)
 		{
 			if (row == column)
 			{
-				sum += a[row][column];
+				printf("%d\n", a[row][column]);
+//				sum += a[row][column];
 			}
 		}
 	}
