@@ -11,4 +11,14 @@
 
 char *_memset(char *s, char b, unsigned int n);
 
+/**
+ * _memcpy - copies n byte of src memory to dest memory
+ * @src: source of string in memory 
+ * @n: numver of bytes
+ * @dest: memory to cipy string to
+ * Return: string
+ */
+
+char *_memcpy(char *dest, char *src, unsigned int n);
+
 #endif
