@@ -1,29 +1,31 @@
-#include "main.h"
+#include "holberton.h"
 #include <stdio.h>
 
 /**
- * print_diagsums - adds for sum of all int in diagonal of x by x 2d array (martrix)
- * @a: 2D array
- * @size: size of 2D array (e.g n size is n by n)
- * Return: void
+ * print_diagsums - print sums of diagonals in matrix
+ * @a: matrix
+ * @size: size of matrix
  */
 
 void print_diagsums(int *a, int size)
 {
-	a = a[size][size];
-	int row, column;
-	int sum = 0;
 
-	for (row = 0; row <= size; row++)
+	int diagonal_sum_1 = 0;
+	int diagonal_sum_2 = 0;
+	int row, i;
+
+	for (row = 0; row < size; row++)
 	{
-		for (column = 0; column <= size; column++)
-		{
-			if (row == column)
-			{
-				printf("%d\n", a[row][column]);
-//				sum += a[row][column];
-			}
-		}
+		i = (row * size) + row;
+		diagonal_sum_1 += a[i];
 	}
-	printf("%d\n", sum);
+
+	for (row = 1; row <= size; row++)
+	{
+		i = (row * size) - row;
+		diagonal_sum_2 += a[i];
+	}
+
+	printf("%d, %d\n", diagonal_sum_1, diagonal_sum_2);
+
 }
