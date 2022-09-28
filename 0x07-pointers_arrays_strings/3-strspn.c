@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
  * _strspn - return length of string that matches values consistently
@@ -28,4 +28,3 @@ unsigned int _strspn(char *s, char *accept)
 	}
 	return (matches);
 }
-
