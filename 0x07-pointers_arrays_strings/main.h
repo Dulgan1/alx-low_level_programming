@@ -30,4 +30,13 @@ char *_memcpy(char *dest, char *src, unsigned int n);
 
 char *_strchr(char *s, char c);
 
+/**
+ * _strspn - returns length of matching  string
+ * @s: source string
+ * @accept:
+ * Return: length
+ */
+
+unsigned int _strspn(char *s, char *accept);
+
 #endif
