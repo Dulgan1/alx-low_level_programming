@@ -11,6 +11,7 @@
 char *_strstr(char *haystack, char *needle)
 {
 	int i, j, y;
+	char *f = 0;
 
 	i = 0;
 
@@ -26,10 +27,7 @@ char *_strstr(char *haystack, char *needle)
 			while (needle[j] != '\0')
 			{
 				if (haystack[y] == needle[j])
-				{
 					y++, j++;
-
-				}
 				else
 					break;
 			}
@@ -40,6 +38,5 @@ char *_strstr(char *haystack, char *needle)
 		}
 		i++;
 	}
-	char *f = 0;
 	return (f);
 }
