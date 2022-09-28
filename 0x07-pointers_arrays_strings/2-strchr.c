@@ -13,7 +13,7 @@ char *_strchr(char *s, char c)
 	int len = 0;
 	int n;
 
-	n = len -1;
+	n = len - 1;
 
 	while (s[i] != '\0')
 	{
@@ -29,7 +29,7 @@ char *_strchr(char *s, char c)
 		}
 		else if (i == n && s[i] != c)
 		{
-			s[i] = 0;
+			s[i] = 0x03;
 		}
 		else
 		{
