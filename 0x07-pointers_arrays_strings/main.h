@@ -12,6 +12,15 @@
 char *_memset(char *s, char b, unsigned int n);
 
 /**
+ * _strstr - locate and return pointer to first occurence of substring
+ * @haystack: source string to search
+ * @needle: target substring to search for
+ * Return: pointer to string at first occurwnce
+ */
+
+char *_strstr(char *haystack, char *needle);
+
+/**
  * _memcpy - copies n byte of src memory to dest memory
  * @src: source of string in memory 
  * @n: numver of bytes
