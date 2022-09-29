@@ -32,4 +32,11 @@ void _print_rev_recursion(char *s);
 
 int _strlen_recursion(char *s);
 
+/**
+ * factorial - recursively calculates the factorial of a number int
+ * @n: int number to get factorial of
+ * Return: factorail of number
+ */
+int factorial(int n);
+
 #endif
