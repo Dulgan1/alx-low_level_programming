@@ -2,9 +2,10 @@
 
 /**
  * factorial - recursively calculates the factorial of a number int
- * @n: int number to get factorial of 
+ * @n: number to get factorial of 
  * Return: factorail of number
  */
+
 int factorial(int n)
 {
 	if (n < 0)
