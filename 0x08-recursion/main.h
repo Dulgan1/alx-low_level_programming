@@ -8,4 +8,12 @@
 
 void _puts_recursion(char *s);
 
+/**
+ * _putchar - prints character 
+ * @c: charater
+ * Return: int
+ */
+
+int _putchar(char c);
+
 #endif
