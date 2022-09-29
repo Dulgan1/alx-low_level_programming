@@ -23,4 +23,13 @@ int _putchar(char c);
 
 void _print_rev_recursion(char *s);
 
+/**
+ * _strlen_recursion - recursively counts tge length of string
+ * @s: string
+ * Return: length of string
+ *
+ */
+
+int _strlen_recursion(char *s);
+
 #endif
