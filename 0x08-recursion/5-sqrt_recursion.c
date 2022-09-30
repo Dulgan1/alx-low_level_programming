@@ -25,6 +25,6 @@ int getroot(int n, int r)
 	if (r * r > n)
 		return (-1);
 	if (r * r == n)
-		return (0);
-	return (getroot(n , r + 1));
+		return (r);
+	return (getroot(n, r + 1));
 }
