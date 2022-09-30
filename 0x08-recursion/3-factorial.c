@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * factorial - recursively calculates the factorial of a number int
- * @n: number to get factorial of 
- * Return: factorail of number
+ * factorial - recursively calculates tge factorial of int b
+ * @n: number to get factorial of
+ * Return: factorial 
  */
 
 int factorial(int n)
