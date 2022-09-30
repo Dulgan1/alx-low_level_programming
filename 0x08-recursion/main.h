@@ -39,4 +39,11 @@ int _strlen_recursion(char *s);
  */
 int factorial(int n);
 
+/**                                                                               * _pow_recursion - calculates tge power of a number x raised to power y          * @x: number
+ * @y: power
+ * Return: int
+ */
+
+int _pow_recursion(int x, int y)
+
 #endif
