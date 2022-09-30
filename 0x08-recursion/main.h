@@ -46,4 +46,18 @@ int factorial(int n);
 
 int _pow_recursion(int, int);
 
+/**
+ * _sqrt_recursion - calculates the square root of n
+ * @n: number
+ * Return: int
+ */
+                                                                                 int _sqrt_recursion(int n);
+
+/**
+ * getroot - finds the square root of n
+ * @n: number
+ * @r: root
+ * Return: int                                                                    */
+
+int getroot(int n, int r);
 #endif
