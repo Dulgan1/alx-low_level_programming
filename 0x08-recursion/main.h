@@ -44,6 +44,6 @@ int factorial(int n);
  * Return: int
  */
 
-int _pow_recursion(int x, int y)
+int _pow_recursion(int, int)
 
 #endif
