@@ -60,4 +60,21 @@ int _pow_recursion(int, int);
  * Return: int                                                                    */
 
 int getroot(int n, int r);
+
+/**
+ * checker - checks if n is orime number 
+ * @n: nymber
+ * @divider: to be
+ * Return: 1 if trye, 0 if not 
+ */
+
+int checker(int n, int divider);
+
+/**
+ * is_prime_number - checks if a number is prime or not
+ * @n: nunber
+ * Return: 1 if trye , 0 if false
+ */
+
+int is_prime_number(int n);
 #endif
