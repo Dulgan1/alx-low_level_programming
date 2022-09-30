@@ -16,7 +16,7 @@ int is_prime_number(int n)
 	if (n == 2)
 		return (1);
 
-	return (checker(n, divider);
+	return (checker(n, divider));
 }
 
 /**
@@ -30,8 +30,8 @@ int checker(int n, int divider)
 {
 	if (n == divider)
 		return (1);
-	if (n % divisor == 0)
+	if (n % divider == 0)
 		return (0);
 
-	return (checker(n, divider + 1);
+	return (checker(n, divider + 1));
 }
