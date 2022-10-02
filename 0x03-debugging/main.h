@@ -33,4 +33,13 @@ int largest_number(int, int, int);
 
 void print_remaining_days(int, int, int);
 
+/**
+ * convert_day - converts day of month to day of year
+ * @month: in number format
+ * @day: of month
+ * @year: year of course
+ */
+
+void convert_day(int, int, int);
+
 #endif
