@@ -23,4 +23,14 @@ void positive_or_negative(int);
 
 int largest_number(int, int, int);
 
+/**
+ * print_remaining_days - takse a date and prints how many days left in the ye
+ * @month: in  number format
+ * @day: day of month
+ * @year: year of course
+ * Return: void
+ */
+
+void print_remaining_days(int, int, int);
+
 #endif
