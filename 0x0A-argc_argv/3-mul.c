@@ -12,6 +12,7 @@ int main(int argc, char *argv[])
 {
 	int x;
 	int y;
+	int mul;
 
 	if (argc < 3 || argc > 3)
 		printf("Error\n");
