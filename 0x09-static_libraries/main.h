@@ -179,4 +179,16 @@ int _strlen(char *s);
  */
 
 int _putchar(char c);
+
+/**
+ * _abs - gets and prints the absolute value of given number
+ *
+ *
+ * @a: The passed integer (parameter)
+ *
+ * Return: returns the absolute value of passed int
+ *
+ */
+
+int _abs(int a);
 #endif
