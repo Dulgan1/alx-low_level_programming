@@ -3,7 +3,7 @@
 /**
  * main - entry of program, prints all command line arguments
  * @argc: counts of argv elements
- * @argv: vector array containing command line arguments passed wuth tge program
+ * @argv: vector array containing command line arguments
  * Return: int 0 on successful run
  */
 
