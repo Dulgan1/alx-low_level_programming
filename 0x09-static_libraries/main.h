@@ -171,4 +171,12 @@ char *_strcpy(char *dest, char *src);
  */
 
 int _strlen(char *s);
+
+/**
+ * _putchar - prints a charecter
+ * @c: character to print
+ * Return: int
+ */
+
+int _putchar(char c);
 #endif

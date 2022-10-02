@@ -7,5 +7,5 @@
 
 int _atoi(void)
 {
-	retun (0);
+	return (0);
 }
