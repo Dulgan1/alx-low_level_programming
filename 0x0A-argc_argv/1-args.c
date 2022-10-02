@@ -2,10 +2,10 @@
 #include <stdio.h>
 
 /**
- * main - entry of program, prints the name of tge name of the program
- * @argc: counts of elements in argv
- * @argv: command line arguments stored as string in array
- * Return: 0 on successful program
+ * main - entry of program, prints number of command line arguments passed
+ * @argc: argv elements count
+ * @argv: array string containing command line arguments
+ * Rerurn: 0 on successful run
  */
 
 int main(int argc, char *argv[] __attribute__((unused)))
