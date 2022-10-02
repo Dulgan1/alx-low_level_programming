@@ -96,4 +96,18 @@ int is_palindrome(char *s);
  * @head: index starting from left of string                                      * @tail: index starting from right of string, moving backwards
  * Return: 1 if palindrome, 0 if not                                              */                                                                              
 int compare(char *head, char *tail);
+
+/**
+ * substring_match - check if a substring after wildcard matches s1               * @s1: one string
+ * @s2: one string
+ * @after_wldcd: placeholder for position right after wildcard
+ * Return: 1 if matched, 0 if not
+ */
+int substring_match(char *s1, char *s2, char *after_wldcd);
+
+/**
+ * wildcmp - compare if string with wildcard mattches                             * @s1: one string
+ * @s2: one string                                                                * Return: 1 if matched, 0 if not                                                 */
+
+int wildcmp(char *s1, char *s2);
 #endif
