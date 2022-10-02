@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * main - entry of main program prints the minimum number of coins for an amount
+ * main - entry of main program prints the minimum numberof coins for an amount
  * @argc: argv count of element, counts just two arguments
  * @argv: arguments given should be program name and amount of money
  * Return: least number of coins, 0 if negative amount, 1 if amount not given
