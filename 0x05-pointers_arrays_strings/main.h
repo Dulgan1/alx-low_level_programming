@@ -106,6 +106,6 @@ int idx_num_starts(char *s);
  * Return: integer 1 or -1
  */
 
-int find_sign(char *s)
+int find_sign(char *s);
 
 #endif
