@@ -10,4 +10,12 @@
 
 char *create_array(unsigned int, char);
 
+/**
+ * _strdup - returns pointer of newly allocated
+ * and copies string passed to it
+ * @str: passed string to be copied
+ */
+
+char *_strdup(char* str);
+
 #endif
