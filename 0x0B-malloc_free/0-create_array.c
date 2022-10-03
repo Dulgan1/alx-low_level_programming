@@ -21,9 +21,9 @@ char *create_array(unsigned int size, char c)
 	{
 		p = malloc(sizeof(char) * size);
 		p[0] = c;
-		temp = p;
+		*temp = *p;
 		free(p);
 	}
 	
-	return(temp);
+	return (*temp);
 }
