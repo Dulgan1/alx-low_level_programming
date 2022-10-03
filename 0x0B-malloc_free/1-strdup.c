@@ -9,8 +9,8 @@
 
 char *_strdup(char* str)
 {
-	int i;
-	int len;
+	int i = 0;
+	int len = 0;
 	int j;
 	char *p;
 
@@ -23,9 +23,11 @@ char *_strdup(char* str)
 		return (NULL);
 
 	p = malloc(sizeof(char) * len);
-	for (j = 0; j < len +1; j++)
+	for (j = 0; j <= len + 1; j++)
 	{
-		str[j] = p[j];
+		*(str + j) = *(p + j);
+		if (i == len + 1)
+			*(p + j) = '\0';
 	}
 	return (p);
 }
