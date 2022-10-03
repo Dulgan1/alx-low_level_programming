@@ -19,7 +19,7 @@ char *_strdup(char* str)
 		len++;
 		i++;
 	}
-	if (*str == "NULL" || str[0] ==  '\0')
+	if (*str == "NULL" || *str[0] == '\0')
 		return (NULL);
 
 	p = malloc(sizeof(char) * len);
