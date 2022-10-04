@@ -30,11 +30,14 @@ char *str_concat(char *s1, char *s2)
 		len2++, i++;
 	len2++;
 	p = malloc(sizeof(char) * (len1 + len2));
-	for (j = 0; j <= len1; j++)
+
+	if (p == NULL)
+		return (NULL);
+	for (j = 0; j < len1; j++)
 	{
 		*(p + j) = *(s1 + j);
 	}
-	for (j = 0; j <= len2; j++)
+	for (j = 0; j < len2; j++)
 	{
 		*p = *p + *(s2 + j);
 	}
