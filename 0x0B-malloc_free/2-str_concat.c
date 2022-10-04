@@ -39,9 +39,8 @@ char *str_concat(char *s1, char *s2)
 	}
 	for (j = 0; j < len2; j++)
 	{
-		*(p + i) =  *(s2 + j);
+		*(p + i - 1) =  *(s2 + j);
 		i++;
 	}
-	*p += '\0';
 	return (p);
 }
