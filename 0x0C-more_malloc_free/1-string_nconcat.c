@@ -36,7 +36,8 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		*(p + i) = *(s1 + i);
 		i++;
 	}
-	while (j <= len2) /* add s2 to allocated memory after copying s1 */
+	i = len1;
+	while (j < len2) /* add s2 to allocated memory after copying s1 */
 	{
 		*(p + i) = *(s2 + j);
 		j++;
