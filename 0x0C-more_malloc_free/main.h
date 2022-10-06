@@ -19,4 +19,13 @@ void *malloc_checked(unsigned int n);
 
 char *string_nconcat(char *s1, char *s2, unsigned int n);
 
+/**
+ * array_range - creates array of integers
+ * @min: start range from
+ * @max: end range at
+ * Return: pointer to array
+ */
+
+int *array_range(int min, int max);
+
 #endif
