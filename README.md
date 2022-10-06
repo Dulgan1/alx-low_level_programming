@@ -1,4 +1,4 @@
-##0x00-hello_world
+## 0x00-hello_world
 
 Project
 Contains hello world task, and introduction to C programming - ALX
