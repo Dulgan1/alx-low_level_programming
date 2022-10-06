@@ -28,19 +28,19 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	i = 0;
 	j = 0;
 
-	p = malloc(sizeof(char) * (len1 + len2)); /* allocates memory */
+	p = malloc(sizeof(*p) * (len1 + len2)); /* allocates memory */
 
 	if (p == NULL)
 		return (NULL);
-	while (i < len1) /* copying s1 to allocatrd memory*/
+	while (i <= len1) /* copying s1 to allocatrd memory*/
 	{
 		*(p + i) = *(s1 + i);
 		i++;
 	}
-	while (j < len2) /* add s2 to allocated memory after copying s1 */
+	while (j <= len2) /* add s2 to allocated memory after copying s1 */
 	{
 		*(p + i) = *(s2 + j);
-		i++;
+		j++;
 	}
 
 	return (p);
