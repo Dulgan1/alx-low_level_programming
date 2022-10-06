@@ -1,5 +1,5 @@
+#include <stdlib.h>
 #include "main.h"
-#include <stdio.h>
 
 /**
  * string_nconcat - concatenates two strings, first n chars of s2
@@ -9,13 +9,13 @@
  * Return: pointer tonnew allocated memory for the concatenated string
  */
 
-char *string_nconcat(char *s1, char *s2)
+char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *p;
-	int i = 0;
-	int len1 = 0; /* For length of s1 */
-	int len2 = 0; /* For length of s2 */
-	int j= 0;
+	unsigned int i = 0;
+	unsigned int len1 = 0; /* For length of s1 */
+	unsigned int len2 = 0; /* For length of s2 */
+	unsigned int j= 0;
 
 	while (s1[i] != '\0') /* counts length of s1 */
 		len1++, i++;
