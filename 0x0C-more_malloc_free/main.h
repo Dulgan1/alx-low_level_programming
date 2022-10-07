@@ -28,4 +28,13 @@ char *string_nconcat(char *s1, char *s2, unsigned int n);
 
 int *array_range(int min, int max);
 
+/**
+ * _realloc - reallocates memory
+ * @ptr: initial memory alloc'd pointer
+ * @old_size: initial size of ptr
+ * @new_size: new size to allocate
+ * Return: pointer to new memory
+ */
+void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size);
+
 #endif
