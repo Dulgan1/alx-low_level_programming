@@ -37,4 +37,11 @@ void init_dog(struct dog *d, char *name, float age, char *owner);
 
 dog_t *new_dog(char *name, float age, cbar *owner);
 
+/**
+ * free_dog - frees the memory occupied by dog x_x
+ * @d: dog instance in memory
+ * Return: void
+ */
+                                                                                 void free_dog(dog_t *d);
+
 #endif
