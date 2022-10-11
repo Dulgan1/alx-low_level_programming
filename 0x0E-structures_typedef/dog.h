@@ -18,6 +18,7 @@ struct dog
 
 /**
  * dog_t - Typedef for struct dog
+ * Description: to represent struct dog as dog_t
  */
 
 typedef struct dog dog_t;
@@ -58,5 +59,22 @@ void free_dog(dog_t *d);
  */
 
 void print_dog(struct dog *d);
+
+/**
+ * _strlen - gets the length of a string
+ * @str: string to count
+ * Return: int length of str
+ */
+
+int _strlen(char *str);
+
+/**
+ * _strcpy - copies string to another string
+ * @a: first string copied from
+ * @b: second string copied to
+ * Return: b
+ */
+
+char *_strcpy(char *a, char *b);
 
 #endif
