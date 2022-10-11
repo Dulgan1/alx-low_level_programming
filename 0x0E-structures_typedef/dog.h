@@ -48,7 +48,8 @@ dog_t *new_dog(char *name, float age, char *owner);
  * @d: dog instance in memory
  * Return: void
  */
-                                                                                 void free_dog(dog_t *d);
+
+void free_dog(dog_t *d);
 
 /**
  * print_dog - prints a dog struct type dog's information
