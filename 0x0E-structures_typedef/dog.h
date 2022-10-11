@@ -44,4 +44,12 @@ dog_t *new_dog(char *name, float age, cbar *owner);
  */
                                                                                  void free_dog(dog_t *d);
 
+/**
+ * print_dog - prints a dog struct type dog's information
+ * @d: address of dog
+ * Return: void
+ */
+
+void print_dog(struct dog *d);
+
 #endif
