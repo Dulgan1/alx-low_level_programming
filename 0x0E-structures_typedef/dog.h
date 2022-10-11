@@ -27,4 +27,14 @@ typedef struct dog
 
 void init_dog(struct dog *d, char *name, float age, char *owner);
 
+/**
+ * new_dog -function creates new dog
+ * @name: name of new dog
+ * @age: of new dog
+ * @owner: of new dog
+ * Return: dog_t
+ */
+
+dog_t *new_dog(char *name, float age, cbar *owner);
+
 #endif

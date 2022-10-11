@@ -13,7 +13,10 @@
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
 	if (d == NULL)
-		exit (0);
+	{
+		d = malloc(sizeof(struct dog));
+		free(d);
+	}
 	else
 	{
 		d->name = name;
