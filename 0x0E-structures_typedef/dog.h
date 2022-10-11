@@ -9,12 +9,14 @@
  * Description: struct describes a dog and its owner
  */
 
-typedef struct dog
+struct dog
 {
 	char *name;
 	float age;
 	char *owner;
-} dog_t;
+};
+
+typedef struct dod dog_t;
 
 /**
  * init_dog - initializes a variable of type struct dog
@@ -35,7 +37,7 @@ void init_dog(struct dog *d, char *name, float age, char *owner);
  * Return: dog_t
  */
 
-dog_t *new_dog(char *name, float age, cbar *owner);
+dog_t *new_dog(char *name, float age, char *owner);
 
 /**
  * free_dog - frees the memory occupied by dog x_x
