@@ -11,7 +11,7 @@
 
 int main(int argc, char *argv[])
 {
-	int a, b;
+	int x, y;
 	int (*f)(int, int);
 
 	if (argc != 4)
@@ -20,8 +20,8 @@ int main(int argc, char *argv[])
 		exit(98);
 	}
 
-	a = atoi(argv[1]);
-	b = atoi(argv[4]);
+	x = atoi(argv[1]);
+	y = atoi(argv[3]);
 	f = get_op_func(argv[2]);
 
 	if (f == NULL || argv[2][1] != '\0')
@@ -36,7 +36,7 @@ int main(int argc, char *argv[])
 		exit(100);
 	}
 
-	printf("%d\n", f(a, b));
+	printf("%d\n", f(x, y));
 
 	return (0);
 }
