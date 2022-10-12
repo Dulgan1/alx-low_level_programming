@@ -6,6 +6,7 @@
  * @name: name of the dog
  * @age: age of the dog
  * @owner: of the dog
+ *
  * Description: struct describes a dog and its owner
  */
 
@@ -18,6 +19,7 @@ struct dog
 
 /**
  * dog_t - Typedef for struct dog
+ *
  * Description: to represent struct dog as dog_t
  */
 
