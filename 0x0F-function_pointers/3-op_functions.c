@@ -14,10 +14,10 @@ int op_add(int a, int b)
 }
 
 /**
- * op_sub - gets difference of two ints
- * @a: first int 
+ * op_sub - subtracts b from a 
+ * @a: first int
  * @b: second int
- * Return: difference of a n b
+ * Return: difference
  */
 
 int op_sub(int a, int b)
@@ -51,12 +51,12 @@ int op_div(int a, int b)
 
 /**
  * op_mod - modulus operation
- * @a: first int
- * @b: ssecond int 
+ * @a: first in
+ * @b: second int
  * Return: remainder
  */
 
 int op_mod(int a, int b)
 {
-	 return (a % b);
+	return (a % b);
 }
