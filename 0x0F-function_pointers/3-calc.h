@@ -1,5 +1,5 @@
-#ifndef 3_CALC_H
-#define 3_CALC_H
+#ifndef _CALC_H
+#define _CALC_H
 
 /**
  * op_div - divides a by b
@@ -51,8 +51,8 @@ int op_add(int a, int b);
 
 struct op
 {
-        char op;
-        int (*f)(int a int b);
+        char *op;
+        int (*f)(int a, int b);
 };
 
 /**
@@ -61,4 +61,5 @@ struct op
 
 typedef struct op op_t;
 
+/**                                                                               * get_op_func - returns functiom corresponding to passed char                    * @c: char passed for checking                                                   * Return: corresponding function identifier                                      */                                                                                                                                                               int (*get_op_func(char *s))(int a, int b);
 #endif
