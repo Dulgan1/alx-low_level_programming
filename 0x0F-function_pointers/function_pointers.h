@@ -19,4 +19,15 @@ void print_name(char *name, void (*f)(char *));
  */
 
 void array_iterator(int *array, size_t size, void (*action)(int));
+
+/**
+ * int_index - returns the index of element that fits comparison
+ * @array: to compare elements of
+ * @size: of array
+ * @cmp: function for comparison
+ * Return: index of element
+ */
+
+int int_index(int *array, int size, int (*cmp)(int));
+
 #endif
