@@ -17,4 +17,14 @@ int sum_them_all(int n, ...);
  */
 
 void print_numbers(const char *separator, const unsigned int n, ...);
+
+/**
+ * print_strings - prints strings passed in variadic function
+ * @separator: separates thestrings in outpur
+ * @n: number of arguments of function
+ * Return: void
+ */
+
+void print_strings(const char *separator, const unsigned int n, ...);
+
 #endif
