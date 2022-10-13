@@ -6,7 +6,7 @@
  * print_numbers - prints all numbers from arguments of variadic function
  * @separator:  separates numbers in ouyput
  * @n: number of  arguments  baze argument
- * Returnvoid
+ * Return: void
  */
 
 void print_numbers(const char *separator, const unsigned int n, ...)
@@ -16,7 +16,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 
 	if (n > 0)
 	{
-		va_start(ptr,n);
+		va_start(ptr, n);
 		for (i = 0; i <= n; i++)
 		{
 			printf("%d", va_arg(ptr, int));
