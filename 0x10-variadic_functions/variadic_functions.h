@@ -1,5 +1,6 @@
 #ifndef V_F
 #define V_F
+#include <stdarg.h>
 
 /**
  * sum_them_all - sums all arguments passed in a variadic function
@@ -27,4 +28,50 @@ void print_numbers(const char *separator, const unsigned int n, ...);
 
 void print_strings(const char *separator, const unsigned int n, ...);
 
+/**
+ * print_char - prints char
+ * @ptr: valist
+ */
+
+void print_char(va_list ptr);
+
+/**
+ * print_int - prints int
+ * @ptr: valist
+ */
+
+void print_int(va_list ptr);
+
+/**
+ * print_float - prints float
+ * @ptr: valist
+ */
+
+void print_flt(va_list ptr);
+
+/**
+ * print_string - prints string
+ * @ptr: valist
+ */
+
+void print_str(va_list ptr);
+
+/**
+ * print_all - print varying input of ints, chars, floats, and strings
+ * @format: an array of chars signifying which data type to print
+ */
+
+void print_all(const char * const format, ...);
+
+/**
+ * struct ffunc - struct
+ * @alph: letter signifying data type
+ * @func: function ptr
+ */
+
+typedef struct ffunc
+{
+	char alph;
+	void (*func)(va_list);
+} ffunc_t;
 #endif
