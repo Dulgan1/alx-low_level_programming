@@ -40,7 +40,7 @@ int int_index(int *array, int size, int (*cmp)(int));
 struct op
 {
 	char op;
-	int (*f)(int a int b);
+	int (*f)(int a, int b);
 };
 
 /**
