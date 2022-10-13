@@ -1,6 +1,6 @@
-#include <stddef.h>
 #ifndef FUNCTION_POINTER_H
 #define FUNCTION_POINTER_H
+#include <stddef.h>
 
 /**
  * print_name - function to print name taking function argument to modify name
