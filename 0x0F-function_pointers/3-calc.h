@@ -16,6 +16,7 @@ int op_div(int a, int b);
  * @b: ssecond int
  * Return: remainder
  */
+
 int op_mod(int a, int b);
 
 /**
@@ -26,7 +27,8 @@ int op_mod(int a, int b);
  */
 
 int op_sub(int a, int b);
-                                                                                 /**
+
+/**
  * op_mul - multiplies a n b
  * @a: first int
  * @b: second int
@@ -45,14 +47,14 @@ int op_add(int a, int b);
 
 /**
  * struct op - struct op
- *                                                                                * @op: the operator *\/%+-
+ * @op: the operator *\/%+-
  * @f: the function for operator
  */
 
 struct op
 {
-        char *op;
-        int (*f)(int a, int b);
+	char *op;
+	int (*f)(int a, int b);
 };
 
 /**
@@ -61,5 +63,12 @@ struct op
 
 typedef struct op op_t;
 
-/**                                                                               * get_op_func - returns functiom corresponding to passed char                    * @c: char passed for checking                                                   * Return: corresponding function identifier                                      */                                                                                                                                                               int (*get_op_func(char *s))(int a, int b);
+/**
+ * get_op_func - returms function corresponding to passed char
+ * @s: char passed for checking
+ * Return: corresponding function identifier
+ */
+
+int (*get_op_func(char *s))(int, int);
+
 #endif

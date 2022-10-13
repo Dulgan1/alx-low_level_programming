@@ -3,7 +3,7 @@
 
 /**
  * get_op_func - returns functiom corresponding to passed char
- * @c: char passed for checking
+ * @s: char passed for checking
  * Return: corresponding function identifier
  */
 
