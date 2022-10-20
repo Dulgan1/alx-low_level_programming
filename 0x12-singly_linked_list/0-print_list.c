@@ -9,7 +9,7 @@
 
 size_t print_list(const char *h)
 {
-	unsigned int n = 0;
+	size_t n = 0;
 	if (h == NULL)
 		return (0);
 	while (h != NULL)
