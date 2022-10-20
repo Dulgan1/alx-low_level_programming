@@ -9,12 +9,12 @@
  * @next: points to the next node
  */
 
-typedef struct list_s
+typedef struct list_t
 {
-	char *s;
+	char *str;
 	unsigned int len;
-	struct list_s *next;
-} list_s;
+	struct list_t *next;
+} list_t;
 
 /**
  * print_list - prints a elements of a linked list
@@ -22,5 +22,5 @@ typedef struct list_s
  * Return: size_t number of nodes
  */
 
-size_t print_list(const char *h);
+size_t print_list(const list_t *h);
 #endif
