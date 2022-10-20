@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * struct list_s - singly linked list
+ * struct list_t - singly linked list
  * @str: malloc'ed string
  * @len: length of string
  * @next: points to the next node
