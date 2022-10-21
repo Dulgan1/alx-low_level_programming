@@ -2,10 +2,10 @@
 #include "lists.h"
 
 /**
- * add_node_end - adds a new node at the end of the list
- * @head: pointer to pointer of head
- * @str: string for data of node
- * Return: new node at the end of list
+ * add_node_end - adds a new node at the end of the list.
+ * @head: pointer to pointer of head.
+ * @str: string for data of node.
+ * Return: new node at the end of list.
  */
 
 list_t *add_node_end(list_t **head, const char *str)
