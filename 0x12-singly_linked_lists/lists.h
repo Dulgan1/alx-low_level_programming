@@ -23,4 +23,12 @@ typedef struct list_t
  */
 
 size_t print_list(const list_t *h);
+
+/**
+ * list_len -  returns number nodes in a linked list
+ * @h: head of linked list
+ * Return: in size_t the num of nodes
+ */
+
+size_t list_len(const list_t *h);
 #endif
