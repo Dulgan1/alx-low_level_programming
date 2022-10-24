@@ -33,4 +33,13 @@ size_t print_listint(const listint_t *h);
 
 size_t listint_len(const listint_t *h);
 
+/**
+ * add_nodeint - adds a node
+ * @head: head node
+ * @n: for n data in node
+ * Return: pointer to node added
+ */
+
+listint_t *add_nodeint(listint_t **head, const int n);
+
 #endif
