@@ -25,4 +25,12 @@ typedef struct listint_s
 
 size_t print_listint(const listint_t *h);
 
+/**
+ * listint_len - counts all nodes and return the number
+ * @h: head pointer (list)
+ * Return: in size_t the length of node
+ */
+
+size_t listint_len(const listint_t *h);
+
 #endif
