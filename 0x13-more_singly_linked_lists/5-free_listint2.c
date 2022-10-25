@@ -12,6 +12,8 @@ void free_listint2(listint_t **head)
 
 	if (*head == NULL)
 		return;
+	ptr = (listint_t *)(malloc(sizeof(listint_t)));
+
 	while (*head != NULL)
 	{
 		ptr  = *head;
