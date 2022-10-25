@@ -101,4 +101,13 @@ int sum_listint(listint_t *head);
  */
 
 listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n);
+
+/**
+ * delete_nodeint_at_index - deletes a node at index passed
+ * @head: list (head)
+ * @index: index to delete
+ * Return: 1 if succeeded or -1 if failed
+ */
+
+int delete_nodeint_at_index(listint_t **head, unsigned int index);
 #endif
