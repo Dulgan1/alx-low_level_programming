@@ -91,4 +91,14 @@ listint_t *get_nodeint_at_index(listint_t *head, unsigned int index);
  */
 
 int sum_listint(listint_t *head);
+
+/**
+ * insert_nodeint_at_index - add node at a specified index in list
+ * @head: pointer pointing list
+ * @idx: index to add node
+ * @n: for n data in the added node
+ * Return: listint_t node added
+ */
+
+listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n);
 #endif
