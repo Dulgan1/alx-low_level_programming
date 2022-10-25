@@ -1,6 +1,7 @@
 #ifndef LISTS_H
 #define LISTS_H
 #include <stdio.h>
+#include <stddef.h>
 #include <stdlib.h>
 #include <string.h>
 
@@ -67,4 +68,19 @@ void free_listint(listint_t *head);
 
 void free_listint2(listint_t **head);
 
+/**
+ * pop_listint - removes first node (head)
+ * @head: pointer to pointer of head node
+ * Return: value of n data of popped node
+ */
+
+int pop_listint(listint_t **head);
+
+/**
+ * get_nodeint_at_index - gets the node at the index passed
+ * @head: linked list (head node)
+ * Return: node at index
+ */
+
+listint_t *get_nodeint_at_index(listint_t *head, unsigned int index);
 #endif
