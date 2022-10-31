@@ -11,6 +11,7 @@
  * read_textfile - reads the content of a file and prints it to POSIX stdout
  * @filename: name or path of file
  * @letters: number of letters it should print
+ * Return: number of buffer rread
  */
 
 ssize_t read_textfile(const char *filename, size_t letters);
