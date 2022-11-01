@@ -41,4 +41,13 @@ int _strlen(char *s);
  */
 
 int append_text_to_file(const char *filename, char *text_content);
+
+/**
+ * __exit - exits code on errors
+ * @fd: file descriptor with error
+ * @fn: name of file with error
+ * Return: 0
+ */
+
+int __exit(int fd, char *fn, int errcode);
 #endif
