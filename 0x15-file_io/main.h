@@ -32,4 +32,13 @@ int create_file(const char *filename, char *text_content);
  */
 
 int _strlen(char *s);
+
+/**
+ * append_text_to_file - appends text to the end of file
+ * @filename: name or path of file to append to
+ * @text_content: text content to append
+ * Return: 1 on success, -1 on failure
+ */
+
+int append_text_to_file(const char *filename, char *text_content);
 #endif
