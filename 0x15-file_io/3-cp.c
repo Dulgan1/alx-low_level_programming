@@ -3,6 +3,7 @@
 /**
  * __exit - exits code on errors
  * @fd: file descriptor with error
+ * @errcode: code of error
  * @fn: name of file with error
  * Return: 0
  */
