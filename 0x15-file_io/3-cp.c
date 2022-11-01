@@ -41,6 +41,8 @@ int main(int argc, char *argv[])
 	int fd1, fd2, nwrite, nread;
 	char *buffer[1024];
 
+	if (argv[1] == NULL || argv[2] == NULL)
+		__exit(0, NULL, 97);
 	if (argc < 3)
 		__exit(0, NULL, 97);
 
