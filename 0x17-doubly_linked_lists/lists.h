@@ -86,4 +86,11 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n);
  */
 
 dlistint_t *insert_node(dlistint_t *tmp, int n);
+
+/**                                                                               * delete_dnodeint_at_index - deletes node at given idx                           * @head: pointer to head of doubly linked list
+ * @index: index
+ * Return: 1 if successful, -1 if failed                           
+ */
+
+int delete_dnodeint_at_index(dlistint_t **head, unsigned int index);
 #endif
