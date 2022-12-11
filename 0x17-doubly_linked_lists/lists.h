@@ -40,4 +40,13 @@ size_t dlistint_len(const dlistint_t *h);
  */
 
 dlistint_t *add_dnodeint(dlistint_t **head, const int n);
+
+/**
+ * add_dnodeint_end - add node to end of doubly linked list
+ * @head: pointer to head of list
+ * @n: node data
+ * Return: address of new node, or Null if failed
+ */
+
+dlistint_t *add_dnodeint_end(dlistint_t **head, const int n);
 #endif
