@@ -49,4 +49,10 @@ dlistint_t *add_dnodeint(dlistint_t **head, const int n);
  */
 
 dlistint_t *add_dnodeint_end(dlistint_t **head, const int n);
+
+/**
+ * free_dlistint - frees a doubly linked list with only int data, no strings      * @head: pointer to head of list
+ * Return: void
+ */
+void free_dlistint(dlistint_t *head);
 #endif
