@@ -55,4 +55,12 @@ dlistint_t *add_dnodeint_end(dlistint_t **head, const int n);
  * Return: void
  */
 void free_dlistint(dlistint_t *head);
+
+/**                                                                               * get_dnodeint_at_index - get node at index
+ * @head: pointer to head of doubly linked list
+ * @index: given index
+ * Return: pointer to node
+ */
+
+dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index);
 #endif
