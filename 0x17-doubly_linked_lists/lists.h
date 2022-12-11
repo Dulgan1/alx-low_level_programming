@@ -31,4 +31,13 @@ size_t print_dlistint(const dlistint_t *h);
  */
 
 size_t dlistint_len(const dlistint_t *h);
+
+/**
+ * add_dnodeint - add node to front of doubly linked list
+ * @head: pointer to head of list
+ * @n: node data
+ * Return: address of new node, or Null if failed
+ */
+
+dlistint_t *add_dnodeint(dlistint_t **head, const int n);
 #endif
