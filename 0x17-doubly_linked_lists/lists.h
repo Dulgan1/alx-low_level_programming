@@ -70,4 +70,20 @@ dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index);
  * Return: sum
  */
                                                                                  int sum_dlistint(dlistint_t *head);
+
+/**
+ * insert_dnodeint_at_index - create and insert node at nth index
+ * @h: pointer to head of list
+ * @idx: index
+ * @n: node data
+ * Return: address of inserted node, or NULL if failed
+ */                                                                              
+
+dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n);
+
+/**                                                                               * insert_node - insert node at given index
+ * @tmp: ptr to nth position node in doubly linked list                           * @n: node data                                                                  * Return: address of inserted node
+ */
+
+dlistint_t *insert_node(dlistint_t *tmp, int n);
 #endif
