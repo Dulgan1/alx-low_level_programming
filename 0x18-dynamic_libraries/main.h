@@ -3,7 +3,7 @@
 
 /**
  * _purchar - prints character
- *
+ * @char: char
  * Return: void
  *
  */
@@ -12,7 +12,7 @@ void _putchar(char);
 
 /**
  * islower - checks if a letter is lowercase or uppercase
- *
+ * @int: int
  * Return: 1 if its lowercase 0 if its uppercase
  */
 
@@ -20,7 +20,7 @@ int _islower(int);
 
 /**
  * _isalpha - checks if a given int is an alphabet base on ASCII
- *
+ * @int: int
  * Return: 1 if true amd 0 if not
  */
 
@@ -28,22 +28,26 @@ int _isalpha(int);
 
 /**
  * _abs - gets the absolute value of a passed integer
- *
- * Return: absolute value                                                   */
+ * @int: int
+ * Return: absolute value
+ */
+
 int _abs(int);
 
 /**
  * isupper - evaluates an alphabet if upper or lower
- *
+ * @int: int
  * Return: int 1 for upper and 0 for lower case
  */
 
 int _isupper(int);
-                                                                           /**
+
+/**
  * _isdigit - checks if character is a digit
- *
+ * @int: int
  * Return: i t 1 0r
  */
+
 int _isdigit(int);
 
 /**
@@ -54,21 +58,25 @@ int _isdigit(int);
 
 int _strlen(char *s);
 
-/**                                                                         * _puts - prints a string and a new line
+/**
+ * _puts - prints a string and a new linei
  * @str: .
  * Return: void
  */
-                                                                           void _puts(char *str);
+
+void _puts(char *str);
 
 /**
- * *_strcpy - copies string for src to dest                                 * @dest: destination string
+ * *_strcpy - copies string for src to dest
+ * @dest: destination string
  * @src: source string
  * Return: void
  */
 
 char *_strcpy(char *dest, char *src);
 
-/**                                                                         * _atoi - convert string to int
+/**
+ * _atoi - convert string to int
  * @s: string to convert
  * Return: integer
  */
@@ -79,23 +87,28 @@ int _atoi(char *s);
  * _strcat - concatenates strings
  * @dest: destination string
  * @src: source string
- *                                                                          * Return: char *
+ * Return: char
  */
 
 char *_strcat(char *dest, char *src);
-/**                                                                         * _strncat - concatenate n bytes to dest strinv                            *
+
+/**
+ * _strncat - concatenate n bytes to dest string
  * @dest: destination string
- *
+ * @n: number
  * @src: source of string
  *
- * Return: char                                                             */
+ * Return: char
+ */
 
 char *_strncat(char *dest, char *src, int n);
 
 /**
  * _strncpy - copies n bytes of source to destination string
  * @src: source string
- * @dest: destinantion string                                                                              * Return: string goten after copying
+ * @dest: destinantion string
+ * @n: number
+ * Return: string goten after copying
  */
 
 char *_strncpy(char *dest, char *src, int n);
@@ -122,7 +135,8 @@ char *_memset(char *s, char b, unsigned int n);
 /**
  * _strstr - locate and return pointer to first occurence of substring
  * @haystack: source string to search
- * @needle: target substring to search for                                                                 * Return: pointer to string at first occurwnce
+ * @needle: target substring to search for
+ * Return: pointer to string at first occurwnce
  */
 
 char *_strstr(char *haystack, char *needle);
@@ -137,31 +151,39 @@ char *_strstr(char *haystack, char *needle);
 
 char *_memcpy(char *dest, char *src, unsigned int n);
 
-/**                                                                                                        * _strpbrk - return pointer to byte in s that matcjes a byte in accept
+/**
+ * _strpbrk - return pointer to byte in s that matcjes a byte in accept
  * @s: string to match (source)
  * @accept: target string
  * Return: address of first match
  */
 
 char *_strpbrk(char *s, char *accept);
+
 /**
  * _strchr - locates first occurence of char c in string s
- * @s; string
+ * @s: string
  * @c: character
- * Return: char location                                                                                   */
+ * Return: char location
+ */
 
 char *_strchr(char *s, char c);
 
 /**
  * _strspn - returns length of matching  string
  * @s: source string
- * @accept:
+ * @accept: accepts
  * Return: length
  */
-                                                                                                          unsigned int _strspn(char *s, char *accept);
-													  /**
- * _strchr - locates first occurence of char c in string s                        * @s; string
+
+unsigned int _strspn(char *s, char *accept);
+
+/**
+ * _strchr - locates first occurence of char c in string s
+ * @s: string
  * @c: character
- * Return: char location                                                          */
-                                                                                 char *_strchr(char *s, char c);
+ * Return: char location
+ */
+
+char *_strchr(char *s, char c);
 #endif
