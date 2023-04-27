@@ -18,10 +18,9 @@ void print_line(int n)
 		}
 		else
 		{
-			if (0)
+			if (n < 0)
 			{
 				n *= -1;
-				_putchar('_');
 			}
 			else
 			{
