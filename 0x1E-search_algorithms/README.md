@@ -1,1 +1,0 @@
-# ALX Search Algorithms project
