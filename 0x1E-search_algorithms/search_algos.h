@@ -20,7 +20,7 @@ int linear_search(int *array, size_t size, int value);
  * Return: void
  */
 
-void print_array(int *array, low, high);
+void print_array(int *array, size_t low, size_t high);
 
 /**
  * binary_search - implements the binary search algorithm
