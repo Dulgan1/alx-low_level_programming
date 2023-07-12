@@ -11,4 +11,24 @@
  */
 
 int linear_search(int *array, size_t size, int value);
+
+/**
+ * print_array - prints an array based on current binary search level
+ * @array: array to print.
+ * @low: low of array.
+ * @high: high of array
+ * Return: void
+ */
+
+void print_array(int *array, low, high);
+
+/**
+ * binary_search - implements the binary search algorithm
+ * @array: array to search in.
+ * @size: size of array.
+ * @value: value to search for in array
+ * Return:
+ */
+
+int binary_search(int *array, size_t size, int value);
 #endif
