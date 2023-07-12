@@ -27,8 +27,36 @@ void print_array(int *array, size_t low, size_t high);
  * @array: array to search in.
  * @size: size of array.
  * @value: value to search for in array
- * Return:
+ * Return: void
  */
 
 int binary_search(int *array, size_t size, int value);
+
+/**
+ * print_range - helper func to print at each check
+ * @i: index before jump
+ * @j: index after jump
+ * Return: void
+ */
+
+void print_range(size_t i, size_t j);
+
+/**
+ * print_idx - helper func to print idx each check
+ * @array: array
+ * @i: index checked
+ * Return: void
+ */
+
+void print_idx(int *array, size_t i);
+
+/**
+ * jump_search - find square root, jump steps to find match, end linear search
+ * @array: given array of ints
+ * @size: size of array
+ * @value: value to search for
+ * Return: index at which value's found
+ */
+
+int jump_search(int *array, size_t size, int value);
 #endif
