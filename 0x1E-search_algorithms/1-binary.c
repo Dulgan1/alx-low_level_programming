@@ -46,13 +46,13 @@ void print_array(int *array, size_t low, size_t high)
 {
 	size_t i = 0;
 
-	printf("Searching in array:");
+	printf("Searching in array: ");
 
 	for (i = low; i <= high; i++)
 	{
 		if (i != high)
-			printf(" %d, ", array[i]);
+			printf("%d, ", array[i]);
 		else
-			printf(" %d\n", array[i]);
+			printf("%d\n", array[i]);
 	}
 }
