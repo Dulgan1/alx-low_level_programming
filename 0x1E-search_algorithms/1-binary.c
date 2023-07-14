@@ -5,7 +5,7 @@
  * @array: array to search in.
  * @size: size of array.
  * @value: value to search for in array
- * Return:
+ * Return: in size_t, it returns the location of searched value
  */
 
 int binary_search(int *array, size_t size, int value)
@@ -51,7 +51,7 @@ void print_array(int *array, size_t low, size_t high)
 	for (i = low; i <= high; i++)
 	{
 		if (i != high)
-			printf("%d ", array[i]);
+			printf("%d, ", array[i]);
 		else
 			printf("%d\n", array[i]);
 	}
